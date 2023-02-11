@@ -1,0 +1,150 @@
+@media(max-width:375px) {
+    header {
+        display: block;
+    }
+
+    header #menu {
+        width: 100%;
+        height: 360px;
+    }
+
+    #imgs .img {
+        display: none;
+    }
+
+    #imgs .imgm {
+        display: block;
+    }
+
+    header #descripcion {
+        width: 100%;
+        height: 410px;
+        position: absolute;
+    }
+
+    header #descripcion .text {
+        font-size: 16px;
+        padding: 21px 18px 100px 31px;
+    }
+
+    header #descripcion .text h1 {
+        font-family: 'League Spartan Bold';
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 1;
+    }
+
+    #descripcion #buttons {
+        display: none;
+        /* margin:0; */
+    }
+
+    #buttonsM {
+        display: block;
+        position: absolute;
+        top: 305px;
+        left: 70.6%;
+        height: 80px;
+        margin: 0;
+        width: 110px;
+        height: 55px;
+    }
+
+    #buttonsM #imgb input[type="button"] {
+        height: 55px;
+        width: 50%;
+    }
+
+    #buttonsM #imgb #left2 {
+        display: block;
+        position: absolute;
+        height: 15px;
+        margin-left: 25px;
+        margin-top: 20px;
+
+    }
+
+    #buttonsM #imgb #right2 {
+        display: block;
+        position: absolute;
+        height: 15px;
+        margin-left: 80px;
+        margin-top: 20px;
+
+    }
+
+    header {
+        height: auto;
+    }
+
+    header #menu #barra {
+        margin: 0;
+        position: absolute;
+        top: 0;
+        background: #FFFFFF;
+        width: 100%;
+        height: 110px;
+        line-height: 110px;
+        text-align: right;
+        display: none;
+
+    }
+
+    header #menu #barra li {
+        margin-left: 0;
+        margin-right: 32px;
+    }
+
+    header #menu #barra li a {
+        color: #181818;
+        font-family: 'League Spartan Bold';
+
+    }
+
+    #close,
+    #hamburguesa {
+
+        position: absolute;
+        z-index: 20;
+        top: 46px;
+        left: 30px;
+    }
+
+    #hamburguesa {
+        display: block;
+    }
+
+    header #menu #logo {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 46px;
+    }
+
+    header #descripcion {
+        position: relative;
+    }
+
+    #publicidad {
+        display: block;
+    }
+
+    #publicidad #img1,
+    #publicidad #img2 {
+        width: 100%;
+    }
+
+    #publicidad #about {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    header #descripcion {
+        width: 100%;
+        height: 360px;
+
+    }
+
+}
